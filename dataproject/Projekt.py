@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 import pandas_datareader
 from pandas_datareader import wb
 import seaborn as sns
-import scipy.stats  as stats
-from scipy.stats.stats import pearsonr
 
 ###### a. Downloading inflation and unemployment data from World Bank ######
 cntr_eu = ['DK','SE','FR','NL','DE','GB','BE', 'LU', 'AT', 'FI'] # Subset of countries affected by ECB's QE
@@ -127,3 +125,11 @@ after_QE['year']=year_QE
 regression2=PanelOLS(after_QE.inflation, after_QE.unemployment, entity_effects=True)
 res2 = regression2.fit(cov_type='clustered', cluster_entity=True)
 print(res2)
+
+after_QE_other = after_QE_other.reset_index()
+year_QE_other = pd.Categorical(after_QE_other.year)
+after_QE_other = after_QE_other.set_index(['country','year'])
+after_QE_other['year']=year_QE_other
+regression3=PanelOLS(after_QE_other.inflation, after_QE_other.unemployment, entity_effects=True)
+res3 = regression3.fit(cov_type='clustered', cluster_entity=True)
+print(res3)
