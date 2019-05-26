@@ -1,4 +1,4 @@
-# Modelproject - 1312
+# Model project - 1312
 
 Our model project consists of a microeconomic model describing the inefficiencies of pollution from production from a social economic point of view. We introduce a demand and a supply function, but the production of the suppliers is associated with a negative externality cost.
 
