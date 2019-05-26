@@ -1,0 +1,22 @@
+Peer feedback overview:
+
+JQS310
+	Data analysis project:
+
+	- WMS - https://github.com/NumEconCopenhagen/projects-2019-wms/issues/4
+	- Ivan - https://github.com/NumEconCopenhagen/projects-2019-ivan/issues/2
+
+	Model analysis project:
+
+	- RAJ - https://github.com/NumEconCopenhagen/projects-2019-raj/issues/12 
+	- pytonen - https://github.com/NumEconCopenhagen/projects-2019-pytonen/issues/11
+SDB386
+	Data analysis project:
+
+	- Credible threats - https://github.com/NumEconCopenhagen/projects-2019-credible-threats/issues/4
+	- Zuca&Tugas - https://github.com/NumEconCopenhagen/projects-2019-zuca-tugas/issues/5
+
+	Model analysis project:
+
+	- Unity - https://github.com/NumEconCopenhagen/projects-2019-unity/issues/8 
+	- ourgroupname - https://github.com/NumEconCopenhagen/projects-2019-ourgroupname/issues/10
